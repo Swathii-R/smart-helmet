@@ -19,19 +19,20 @@ The Smart Helmet is a safety-oriented system designed to detect alcohol presence
 
 - Arduino Uno
 - MQ-3 Alcohol Sensor
+- LED
+- Resistor
 - Buzzer
 - Connecting wires
 - Breadboard
 - Power supply
 
 **Working Principle**
-
 1. The MQ-3 sensor detects alcohol vapour.
 2. The sensor provides an output signal to the Arduino Uno.
 3. Arduino reads and processes the sensor value.
-4. When the detected alcohol level exceeds the set threshold, the buzzer is activated.
-5. The buzzer provides an audible warning indicating the detection of alcohol.
-
+4. When the detected alcohol level exceeds the set threshold, the LED and buzzer are activated.
+5. When the alcohol level is below the threshold, the LED and buzzer remain off
+ 
  **Circuit Diagram**
 
 The circuit diagram shows the connections between the Arduino Uno, MQ-3 alcohol sensor and buzzer.
