@@ -36,7 +36,7 @@ The Smart Helmet is a safety-oriented system designed to detect alcohol presence
 
 The circuit diagram shows the connections between the Arduino Uno, MQ-3 alcohol sensor and buzzer.
 
-"Circuit Diagram" (circuit_diagram.png)
+![Circuit Diagram](circuit_diagram.png)
 
 **Source Code**
 
@@ -46,7 +46,7 @@ The Arduino source code is available in the "src" folder.
 
 The system successfully detects the presence of alcohol using the MQ-3 sensor and activates the buzzer when the detected level crosses the defined threshold.
 
-"Result" (result.jpeg)
+![Result](result.jpeg)
 
  **Applications**
 
